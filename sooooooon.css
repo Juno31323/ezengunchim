@@ -1,0 +1,12 @@
+div{
+    width: 100px;
+    height: 50px;
+    background-color: coral;
+    transition-property: width, background-color;
+    transition-duration: 2s, 3s;
+}
+div:hover{
+    width: 500px;
+    font-size: 50px;/*트랜지션 대상이 아니라 바로 변경*/
+    background-color: crimson;
+}
