@@ -4,12 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        input {
+            border: 5px solid darkblue;
+            border-radius: 10px;
+        }
+        .ab {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
 </head>
 <body>
    <h1>"데이터를 주세요"</h1>
     <form action="">
-        <input type="text">
-        <input type="submit" value="전송">
+        <input type="text" id="txt">
+        <input type="week">
+        <input type="file">
+        <br>
+        <input type="radio" name="aa" class="ab">노래<input type="radio" name="aa" class="ab">게임
+        <hr>
+        <input type="submit" value="전송" id="sb">
+        <button>초기화</button>
     </form>
 </body>
 </html>
